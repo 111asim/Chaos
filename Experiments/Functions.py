@@ -1,6 +1,6 @@
 
 # import numpy as np
-from qiskit import QuantumCircuit, transpile,Aer,execute
+# from qiskit import QuantumCircuit, transpile,Aer,execute
 # from qiskit.quantum_info import Kraus, SuperOp
 from qiskit_aer import AerSimulator,qasm_simulator
 from qiskit.tools.visualization import plot_histogram
@@ -10,7 +10,7 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 from qiskit.visualization import plot_state_city, plot_state_qsphere
-
+import itertools
 
 def get_cyclic_permutation(permutation):
     '''
